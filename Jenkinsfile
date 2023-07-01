@@ -26,6 +26,7 @@ pipeline
                
             }
         }
+    }
         post
         {
             success
@@ -36,7 +37,5 @@ pipeline
             {
                 mail bcc: '', body: 'project failed', cc: '', from: '', replyTo: '', subject: 'project failed', to: 'haroonmd127@gmail.com'
             }
-        }
-    }
-    
+        }    
 }
