@@ -6,8 +6,8 @@ pipeline
         {
             steps
             {
-                git branch: 'main', url: 'https://github.com/haroon422/newrepo.git'
-                mail bcc: '', body: 'sc from project https://github.com/haroon422/newrepo.git is succesfully cloned', cc: '', from: '', replyTo: '', subject: 'sc succesfully cloned', to: 'haroonmd127@gmail.com'
+                git branch: 'main', url: 'https://github.com/haroon422/jenkinsgithub.git'
+                mail bcc: '', body: 'sc from project https://github.com/haroon422/jenkinsgithub.git is succesfully cloned', cc: '', from: '', replyTo: '', subject: 'sc succesfully cloned', to: 'haroonmd127@gmail.com'
             }
         }
         stage("build")
